@@ -1,0 +1,12 @@
+!.gitignore
+!.gitattributes
+
+
+*.log
+~$*.doc*
+~$*.xls*
+*.xlk
+~$*.ppt*
+*.~vsd*
+.DS_Store
+Thumbs.db

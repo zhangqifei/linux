@@ -1,0 +1,29 @@
+
+Xdebug的var_dump重载
+在安装xdebug之后，php原来的var_dump方法会被改变，显示效果变得更加友好。
+
+相关参数
+xdebug.overload_var_dump = 1
+参数类型Boolean，默认值为1
+当设置1，则重载var_dump()。即启用xdebug的var_dump()
+
+Xdebug方式是
+xdebug_start_trace();
+/* 业务代码     */
+xdebug_stop_trace();
+
+
+
+http://blog.csdn.net/wzj0808/article/details/55223095
+xdebug的配置
+
+[XDebug]
+zend_extension=php_xdebug.dll  
+xdebug.remote_enable = On  
+xdebug.remote_handler = dbgp     
+xdebug.remote_host= localhost  
+xdebug.remote_port = 9000  
+xdebug.idekey = PHPSTORM  
+xdebug.profiler_append = 0
+xdebug.profiler_enable = 1
+xdebug.overload_var_dump = 0

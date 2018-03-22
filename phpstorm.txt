@@ -1,0 +1,164 @@
+
+查找一个方法在整个项目中的哪里被调用
+1 右键find Usages
+2 ctrl + shift + f
+
+shift+enter       新的一行
+shift+F6          批量重命名变量
+ctrl+shift+u      字母大小写转换
+Shift + Tab		 减少缩进
+
+Ctrl + shift + m	{}、[]、 html标签跳转， 鼠标焦点要放在标签外
+CTRL+ []			光标移动到{}[]开头或结尾位置，同 Ctrl + shift + m
+ctrl+shift+]/[		选中块代码
+Ctrl+Shift + left	回到上次编辑点 Ctrl+Shift + right 相反操作
+
+Ctrl+Shift+Delete	删除外围标签
+Ctrl+Alt+J			给光标所在行或被选择块加tag	
+Ctrl+Alt+t			给光标所在行或被选择块加if	
+
+CTRL+E				最近打开的文件
+Ctrl + Shift + F  全文查找 
+Ctrl+N					类查找  菜单Navigate
+Ctrl+Shift+N			文件查找
+ctrl+alt+F12      跳转至当前文件在磁盘上的位置
+
+ctrl+f            查找
+ctrl+r            替换
+CTRL+G			  定位行，跳转行
+
+ctrl+alt+t        当前位置插入环绕代码
+alt+insert        生成代码菜单
+ctrl+q            查看代码注释
+
+Shift+F1		查看php.net函数文档
+
+Ctrl+D		复制当前行
+CIRL+B		找变量的来源，跳到变量申明处 (CTRL+ 鼠标单击 也可以)
+Ctrl+F12	显示当前文件的全部类、函数、变量
+CTRL+H        显示类结构图
+
+Ctrl+y			删除当前行
+Ctrl+Shift+H	方法的层次结构
+
+CTRL+J			 自动代码提示，自动补全
+
+F4   查找变量来源
+F3   查找下一个
+SHIFT+F3  查找上一个
+
+
+ctrl+alt+L			代码格式化		设置代码样式：Settings -> Code Style ->PHP
+Alt+Shift+Down        下移选中的行
+Alt+Shift+Up          上移选中的行
+Ctrl+Shift+J          合并选中的行
+Ctrl + Alt + S		打开设置窗口
+
+ctrl+/            行注释
+ctrl+shift+/      块注释
+/加两个* + Enter  自动生成注释
+
+灰色＋波浪线: 变量未使用
+黄色波浪线: 变量未名单词拼写问题
+红色波浪线: 变量未定义
+
+修改最多打开的tab数
+Settings | Editor | General | Editor Tabs | Tab limit
+
+PHPStorm默认是UTF-8		加载GBK编码会出现麻将牌
+FILE->Setting->File Encoding->将UTF-8改成GBK
+
+关闭自动完成大小写敏感
+Preferences -> Editor -> Code Completion
+
+所有新建的project公用一个setting
+File > Default Settings 
+you can set the options that would be applied to all new projects 
+
+Turn off background color for SQL strings
+Editor -> Colors & Fonts -> General. 搜索Injected language fragment
+Click 'Injected language fragment' and simply untick the Background checkbox.
+
+关闭phpstorm的拼写检查
+settings ---> inspections ---> spelling ---> Typo的勾去掉
+
+默认展开html中的style
+settings搜索folding, 勾选keep single-line blocks
+
+css格式化去掉空行
+Settings -> Code Style -> Css(PHP or whatever your language is) -> Blank Lines 改为0
+
+css简写时关闭自动换行 Settings -> Code Style -> css
+settings搜索css, 勾选keep single-line blocks
+
+自动换行
+勾选Use soft wrap in editor
+
+code style中html格式化时属性不换行
+Wrap attributes选择do not wrap
+
+给被选中的字符加上引号或括号
+Editor > General > Smart Keys: Surround selection on typing quote or brace
+
+
+关闭灯泡提示
+settings搜索bulb，找到show intention bulb关闭
+
+关闭拼写检查
+Status Bar右下角，右数第2个
+
+设置当前光标所在行高亮颜色
+settings搜索caret row 设为 363636
+
+
+给函数自动生成注释
+code->Generate->PHP Doc
+
+
+Phpstorm激活
+激活时选择License server 填入http://idea.higherbros.com 点击Active即可。
+http://www.imsxm.com/jetbrains-license-server.html
+
+
+phpstorm的自动补充功能live template
+setting-editor-live template
+
+导出live template    C:\Users\Administrator\.PhpStorm2017.2\config\templates
+erverything找到xml文件
+
+
+启动的时候不打开工程文件
+Preferences->Appearance & Behavior ->System Settings 
+去掉 Reopen last project on startup.
+
+
+安装EditorConfig
+
+phpstorm+xdebug断点调试php
+
+1 开启xdebug 
+2 Settings->Languages & frameworks->PHP->Server 新建一个 name为localhost  Host为localhost Port:80, Debugger:Xdebug
+3 Settings->Languages & frameworks->PHP->Debug->DBGp Proxy 新建一个 IDE key为phpStorm  Host为localhost, Port:80
+4 配置一个PHP Web Application
+5 在chome上安装扩展，下载JetBrains IDE Support扩展，安装
+
+https://www.cnblogs.com/shiwaitaoyuan/p/6404604.html
+http://blog.csdn.net/wzj0808/article/details/55223095
+
+phpstrom font配置
+edit -> font 
+font: consolas, size:18
+
+4. 取消勾选不常用的插件
+phpstorm 中可以集成很多插件，这些插件也会影响运行速度，有的插件你可能压根都没听过，更不会使用，可以取消勾选。
+
+安装常用插件
+editroconfig, codeglance
+
+phpstorm卡顿问题解决方法
+点击导航菜单：Help -> Edit Custom VM Options 
+如果是第一次点击，会提示是否新建配置文件，点击“是”
+添加以下两行代码：
+-Dawt.usesystemAAFontSettings=lcd 
+-Dawt.java2d.opengl=true 
+
