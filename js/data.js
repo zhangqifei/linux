@@ -18,7 +18,9 @@ var FrontGuide = {
             "pageT2":"yum源",
             "pageC2":[
                 {'Name':'阿里源','Title':'阿里云开源软件镜像','Href':'https://opsx.alibaba.com/mirror'},
-                {'Name':'科大','Title':'中国科学技术大学开源软件镜像','Href':'http://centos.ustc.edu.cn/'}
+                {'Name':'科大','Title':'中国科学技术大学开源软件镜像','Href':'http://centos.ustc.edu.cn/'},
+				{'Name':'网易','Title':'欢迎访问网易开源镜像站','Href':'http://mirrors.163.com/'}，
+				{'Name':'清华大学','Title':'清华大学开源软件镜像站','Href':'https://mirrors.tuna.tsinghua.edu.cn/'}
             ]
         }]},{
         "pageT1":"我的链接",
