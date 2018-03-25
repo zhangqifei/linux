@@ -15,9 +15,10 @@ var FrontGuide = {
     "main":[{
         "pageT1":"圈子",
         "pageC1":[{
-            "pageT2":"前端教程",
+            "pageT2":"yum源",
             "pageC2":[
-                {'Name':'我的博客','Title':'爱折腾，爱运动，更爱游离于错综复杂的编码与逻辑中，无法自拔。','Href':'http://zhangqifei.top/'}
+                {'Name':'阿里源','Title':'阿里云开源软件镜像','Href':'https://opsx.alibaba.com/mirror'},
+                {'Name':'科大','Title':'中国科学技术大学开源软件镜像','Href':'http://centos.ustc.edu.cn/'}
             ]
         }]},{
         "pageT1":"我的链接",
