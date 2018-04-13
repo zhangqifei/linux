@@ -15,6 +15,14 @@ var FrontGuide = {
     "main":[{
         "pageT1":"圈子",
         "pageC1":[{
+            "pageT2":"系统",
+            "pageC2":[
+                {'Name':'Centos','Title':'Centos官网','Href':'https://www.centos.org/'},
+                {'Name':'ubuntu','Title':'ubuntu官网','Href':'https://www.ubuntu.com/index_kylin'}
+            ]
+        }]},{
+        "pageT1":"圈子",
+        "pageC1":[{
             "pageT2":"yum源",
             "pageC2":[
                 {'Name':'阿里源','Title':'阿里云开源软件镜像','Href':'https://opsx.alibaba.com/mirror',"New":"1"},
