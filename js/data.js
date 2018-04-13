@@ -24,15 +24,15 @@ var FrontGuide = {
 					{'Name':'搜狐','Title':'搜狐开源软件镜像站','Href':'http://mirrors.sohu.com/'},
 					{'Name':'上海交大','Title':'上海交大开源软件镜像站','Href':'http://ftp.sjtu.edu.cn/centos/'},
 					{'Name':'CentOS官方标准源','Title':'CentOS官方开源软件镜像站','Href':'http://mirrors.ustc.edu.cn/centos/'},
-					{'Name':'北京首都在线科技','Title':'北京首都在线开源软件镜像站','Href':'http://mirrors.yun-idc.com/'},
+					{'Name':'北京首都在线科技','Title':'北京首都在线开源软件镜像站','Href':'http://mirrors.yun-idc.com/'}
 				]
         },{
-			"pageT2":"系统",
-			"pageC2":[
-				{'Name':'Centos','Title':'Centos官网','Href':'https://www.centos.org/'},
-				{'Name':'ubuntu','Title':'ubuntu官网','Href':'https://www.ubuntu.com/index_kylin'}，
-				{'Name':'ubuntu','Title':'ubuntu官网','Href':'https://www.ubuntu.com/index_kylin'}
-			]
+				"pageT2":"系统",
+				"pageC2":[
+					{'Name':'Centos','Title':'Centos官网','Href':'https://www.centos.org/'},
+					{'Name':'ubuntu','Title':'ubuntu官网','Href':'https://www.ubuntu.com/index_kylin'},
+					{'Name':'ubuntu','Title':'ubuntu官网','Href':'https://www.ubuntu.com/index_kylin'}
+				]
 		}]},{
         "pageT1":"数据库",
         "pageC1":[{
