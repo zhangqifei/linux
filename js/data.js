@@ -13,13 +13,6 @@
 */
 var FrontGuide = {
     "main":[{
-			"pageT2":"系统",
-			"pageC2":[
-				{'Name':'Centos','Title':'Centos官网','Href':'https://www.centos.org/'},
-				{'Name':'ubuntu','Title':'ubuntu官网','Href':'https://www.ubuntu.com/index_kylin'}，
-				{'Name':'ubuntu','Title':'ubuntu官网','Href':'https://www.ubuntu.com/index_kylin'}
-			]
-		},{
 			"pageT1":"圈子",
 			"pageC1":[{
 				"pageT2":"yum源",
@@ -33,7 +26,14 @@ var FrontGuide = {
 					{'Name':'CentOS官方标准源','Title':'CentOS官方开源软件镜像站','Href':'http://mirrors.ustc.edu.cn/centos/'},
 					{'Name':'北京首都在线科技','Title':'北京首都在线开源软件镜像站','Href':'http://mirrors.yun-idc.com/'},
 				]
-        }]},{
+        },{
+			"pageT2":"系统",
+			"pageC2":[
+				{'Name':'Centos','Title':'Centos官网','Href':'https://www.centos.org/'},
+				{'Name':'ubuntu','Title':'ubuntu官网','Href':'https://www.ubuntu.com/index_kylin'}，
+				{'Name':'ubuntu','Title':'ubuntu官网','Href':'https://www.ubuntu.com/index_kylin'}
+			]
+		}]},{
         "pageT1":"数据库",
         "pageC1":[{
             "pageT2":"数据库",
