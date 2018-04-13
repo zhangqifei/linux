@@ -20,7 +20,11 @@ var FrontGuide = {
                 {'Name':'阿里源','Title':'阿里云开源软件镜像','Href':'https://opsx.alibaba.com/mirror',"New":"1"},
                 {'Name':'科大','Title':'中国科学技术大学开源软件镜像','Href':'http://centos.ustc.edu.cn/'},
 				{'Name':'网易','Title':'欢迎访问网易开源镜像站','Href':'http://mirrors.163.com/'},
-				{'Name':'清华大学','Title':'清华大学开源软件镜像站','Href':'https://mirrors.tuna.tsinghua.edu.cn/'}
+				{'Name':'清华大学','Title':'清华大学开源软件镜像站','Href':'https://mirrors.tuna.tsinghua.edu.cn/'},
+				{'Name':'搜狐','Title':'搜狐开源软件镜像站','Href':'http://mirrors.sohu.com/'},
+				{'Name':'上海交大','Title':'上海交大开源软件镜像站','Href':'http://ftp.sjtu.edu.cn/centos/'},
+				{'Name':'CentOS官方标准源','Title':'CentOS官方开源软件镜像站','Href':'http://mirrors.ustc.edu.cn/centos/'},
+				{'Name':'北京首都在线科技','Title':'北京首都在线开源软件镜像站','Href':'http://mirrors.yun-idc.com/'},
             ]
         }]},{
         "pageT1":"数据库",
